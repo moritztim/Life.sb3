@@ -401,24 +401,6 @@
 					"x": 300,
 					"y": 894
 				},
-				"kDN[?wkU)gbyJg[m?=:6": {
-					"opcode": "operator_divide",
-					"next": null,
-					"parent": null,
-					"inputs": {
-						"NUM1": [
-							3,
-							[12, "cell size", "`jEk@4|i[#Fk?(8x)AV.-my variable"],
-							[4, ""]
-						],
-						"NUM2": [1, [4, "2"]]
-					},
-					"fields": {},
-					"shadow": false,
-					"topLevel": true,
-					"x": 1235,
-					"y": 31
-				},
 				"4`Ri7xUnN:_fA1(fUidZ": {
 					"opcode": "control_if_else",
 					"next": null,
@@ -522,17 +504,6 @@
 					"fields": { "VALUE": ["i", null] },
 					"shadow": false,
 					"topLevel": false
-				},
-				"Ja)8JO=@^aWbZUO^8zm:": {
-					"opcode": "operator_subtract",
-					"next": null,
-					"parent": null,
-					"inputs": { "NUM1": [1, [4, "-180"]], "NUM2": [1, [4, ""]] },
-					"fields": {},
-					"shadow": false,
-					"topLevel": true,
-					"x": 1055,
-					"y": 53
 				},
 				"^^G-UR7#HT|pN{z`;HJ6": {
 					"opcode": "procedures_call",
