@@ -356,8 +356,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 677,
-					"y": -261,
+					"x": 895,
+					"y": -6,
 					"comment": "[}$@5pxVI_|9u]foz]f,"
 				},
 				"?!|r4aEI]eDAo3eK@Q*r": {
@@ -847,8 +847,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 412,
-					"y": -18
+					"x": 259,
+					"y": 22
 				},
 				"`cF3HnyK:.)jxP~At+c=": {
 					"opcode": "procedures_prototype",
@@ -941,8 +941,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 138,
-					"y": 15
+					"x": 57,
+					"y": 52
 				},
 				"BY9}{Emr,Z81u~Ofcb@l": {
 					"opcode": "procedures_call",
@@ -968,8 +968,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 376,
-					"y": 338
+					"x": -100,
+					"y": 292
 				},
 				"Zkw+^t0wFiZwaZ6ZXoPq": {
 					"opcode": "looks_nextcostume",
@@ -989,8 +989,8 @@
 					"fields": { "BROADCAST_OPTION": ["show", "wG!,(4dAVG9R%!C),:}p"] },
 					"shadow": false,
 					"topLevel": true,
-					"x": -150,
-					"y": 257
+					"x": -183,
+					"y": 165
 				},
 				"FoPajl-AyV%#}4RL~ui.": {
 					"opcode": "looks_show",
@@ -1009,8 +1009,8 @@
 					"fields": { "BROADCAST_OPTION": ["start", "3BwTV9d=-:$p!`+LMepD"] },
 					"shadow": false,
 					"topLevel": true,
-					"x": 143,
-					"y": 180
+					"x": 32,
+					"y": 177
 				},
 				"Ey=V31i4F$mvtY*wM.ER": {
 					"opcode": "data_setvariableto",
