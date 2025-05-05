@@ -1,4 +1,4 @@
-NAME = Project
+NAME = Life
 
 SRC_DIR = src
 PROJECT_FILE = project.json
