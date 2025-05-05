@@ -20,8 +20,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 264,
-					"y": 15
+					"x": 202,
+					"y": 14
 				},
 				"kM?MeoCn!#N$V3)689%x": {
 					"opcode": "procedures_prototype",
@@ -34,7 +34,7 @@
 					"mutation": {
 						"tagName": "mutation",
 						"children": [],
-						"proccode": "increment item %s of list \"position\"",
+						"proccode": "increment item %s of list \"position\" by one cell",
 						"argumentids": "[\"[vxB$6}s[i*JfXazP(g(\"]",
 						"argumentnames": "[\"i\"]",
 						"argumentdefaults": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]",
@@ -114,7 +114,8 @@
 					"shadow": false,
 					"topLevel": true,
 					"x": 180,
-					"y": 246
+					"y": 246,
+					"comment": ";P1+VEHGNE9/JG}J.QZF"
 				},
 				"?-fH,o}nxL6H%AvLR)!f": {
 					"opcode": "data_setvariableto",
@@ -152,7 +153,8 @@
 					"inputs": { "VALUE": [1, [10, "0"]] },
 					"fields": { "VARIABLE": ["cells", "+,c81s@Ygzd|[icd[-]H"] },
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "~JH+g[l:H1RyS4Fc0cLx"
 				},
 				"B/3^/#c?}k]8Zfj~@W3#": {
 					"opcode": "procedures_call",
@@ -231,7 +233,8 @@
 					},
 					"fields": {},
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "/m{sp.HUR)Wai9B5/^NM"
 				},
 				"{~o~}v7*G~ngbz4?/?6/": {
 					"opcode": "operator_not",
@@ -319,7 +322,7 @@
 					"mutation": {
 						"tagName": "mutation",
 						"children": [],
-						"proccode": "increment item %s of list \"position\"",
+						"proccode": "increment item %s of list \"position\" by one cell",
 						"argumentids": "[\"[vxB$6}s[i*JfXazP(g(\"]",
 						"warp": "true"
 					}
@@ -354,7 +357,7 @@
 					"mutation": {
 						"tagName": "mutation",
 						"children": [],
-						"proccode": "increment item %s of list \"position\"",
+						"proccode": "increment item %s of list \"position\" by one cell",
 						"argumentids": "[\"[vxB$6}s[i*JfXazP(g(\"]",
 						"warp": "true"
 					}
@@ -367,8 +370,9 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 291,
-					"y": -520
+					"x": 678,
+					"y": -261,
+					"comment": "[}$@5pxVI_|9u]foz]f,"
 				},
 				"?!|r4aEI]eDAo3eK@Q*r": {
 					"opcode": "procedures_prototype",
@@ -568,7 +572,8 @@
 					},
 					"fields": {},
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "5,``)N3N8wHnQrX?iqw!"
 				}
 			},
 			"comments": {
@@ -580,6 +585,51 @@
 					"height": 200,
 					"minimized": false,
 					"text": ""
+				},
+				"[}$@5pxVI_|9u]foz]f,": {
+					"blockId": "Ql+?vq`2^1vDI1?-]?`v",
+					"x": 1097.5185185185182,
+					"y": -245.22222222222223,
+					"width": 266.6666259765625,
+					"height": 97.77777099609375,
+					"minimized": false,
+					"text": "Set x or y position to farthest left or bottom cell center coordinate"
+				},
+				";P1+VEHGNE9/JG}J.QZF": {
+					"blockId": "|MPOg.!4y8Yb]=kNA-CP",
+					"x": 432.5266203703704,
+					"y": 249.55555555555554,
+					"width": 200,
+					"height": 188.14816284179688,
+					"minimized": false,
+					"text": "set up optimal grid division with the sprite count limit in mind"
+				},
+				"~JH+g[l:H1RyS4Fc0cLx": {
+					"blockId": "yKk)oXE;JM-}?8k]X2go",
+					"x": 462.35763931274414,
+					"y": 446,
+					"width": 157.037109375,
+					"height": 139.25930786132812,
+					"minimized": false,
+					"text": "reset things"
+				},
+				"5,``)N3N8wHnQrX?iqw!": {
+					"blockId": "W?-JC9oME4)$a#%S:Aq]",
+					"x": 390.0711801317003,
+					"y": 609.8518518518518,
+					"width": 234.0740966796875,
+					"height": 120,
+					"minimized": false,
+					"text": "keeping cells hidden before grid completion speeds things up drastically"
+				},
+				"/m{sp.HUR)Wai9B5/^NM": {
+					"blockId": "q;(?mPTS!w2yYU@=C)tz",
+					"x": 1146.8148134019639,
+					"y": 346.8888888888889,
+					"width": 211.8519287109375,
+					"height": 90.370361328125,
+					"minimized": false,
+					"text": "until all cells are present"
 				}
 			},
 			"currentCostume": 0,
@@ -637,7 +687,8 @@
 					"inputs": { "COSTUME": [1, "B2mn=XPB]mfi]EB3cH(9"] },
 					"fields": {},
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "v^K6_+a@=nw/Z13RN]c6"
 				},
 				"B2mn=XPB]mfi]EB3cH(9": {
 					"opcode": "looks_costume",
@@ -658,7 +709,8 @@
 					},
 					"fields": {},
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "zFz1N^GBIk;6_OB;iV,$"
 				},
 				"3|,v~L@3#AT4[QfK:=`q": {
 					"opcode": "data_itemoflist",
@@ -685,16 +737,8 @@
 					"inputs": { "VALUE": [1, [4, "1"]] },
 					"fields": { "VARIABLE": ["cells", "+,c81s@Ygzd|[icd[-]H"] },
 					"shadow": false,
-					"topLevel": false
-				},
-				"e|!bP78Uk/^%N%_5=T7M": {
-					"opcode": "control_forever",
-					"next": null,
-					"parent": "B-YjnMGZk;8uzqmp8QVz",
-					"inputs": { "SUBSTACK": [2, "qDg3rj.!3tq,buj_e!PB"] },
-					"fields": {},
-					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "0([228qb|mq4r{3aOb7u"
 				},
 				"qDg3rj.!3tq,buj_e!PB": {
 					"opcode": "looks_setsizeto",
@@ -729,7 +773,8 @@
 					"inputs": {},
 					"fields": {},
 					"shadow": false,
-					"topLevel": false
+					"topLevel": false,
+					"comment": "WT#+#XD-0VV{D*EVNh)."
 				},
 				"vRKHEI;7/2Q~vpp!!wK_": {
 					"opcode": "event_whenbroadcastreceived",
@@ -739,7 +784,7 @@
 					"fields": { "BROADCAST_OPTION": ["show", "wG!,(4dAVG9R%!C),:}p"] },
 					"shadow": false,
 					"topLevel": true,
-					"x": -151,
+					"x": -150,
 					"y": 257
 				},
 				"FoPajl-AyV%#}4RL~ui.": {
@@ -769,10 +814,66 @@
 					"inputs": {},
 					"fields": {},
 					"shadow": false,
+					"topLevel": false,
+					"comment": "{b8wCv4Xc:r@r8XZ=}W:"
+				},
+				"e|!bP78Uk/^%N%_5=T7M": {
+					"opcode": "control_forever",
+					"next": null,
+					"parent": "B-YjnMGZk;8uzqmp8QVz",
+					"inputs": { "SUBSTACK": [2, "qDg3rj.!3tq,buj_e!PB"] },
+					"fields": {},
+					"shadow": false,
 					"topLevel": false
 				}
 			},
-			"comments": {},
+			"comments": {
+				"v^K6_+a@=nw/Z13RN]c6": {
+					"blockId": "CX/R,L-/Wy5X6lV}8fyX",
+					"x": 400.40740747804995,
+					"y": 77.5925925925926,
+					"width": 204.4443359375,
+					"height": 84.4444580078125,
+					"minimized": false,
+					"text": "default state of all cells"
+				},
+				"zFz1N^GBIk;6_OB;iV,$": {
+					"blockId": "oDB2z9*UKr+b5Tw@_J.c",
+					"x": 730.6550943233349,
+					"y": 167.07407407407408,
+					"width": 265.1851806640625,
+					"height": 100.74069213867188,
+					"minimized": false,
+					"text": "go to current position set by enumeration loop in backdrop"
+				},
+				"0([228qb|mq4r{3aOb7u": {
+					"blockId": "B-YjnMGZk;8uzqmp8QVz",
+					"x": 768.0046294883444,
+					"y": 293.5925925925926,
+					"width": 182.2222900390625,
+					"height": 88.888916015625,
+					"minimized": false,
+					"text": "confirm existence"
+				},
+				"WT#+#XD-0VV{D*EVNh).": {
+					"blockId": "Zkw+^t0wFiZwaZ6ZXoPq",
+					"x": 548.7685151276766,
+					"y": 399.9259259259259,
+					"width": 200,
+					"height": 74.0740966796875,
+					"minimized": false,
+					"text": "toggle live/dead state"
+				},
+				"{b8wCv4Xc:r@r8XZ=}W:": {
+					"blockId": "Fo@XU]LB,VqboNq@tlSb",
+					"x": -427.3333333333333,
+					"y": 108.22222222222221,
+					"width": 247.40740966796875,
+					"height": 114.07406616210938,
+					"minimized": false,
+					"text": "\"prototype\" cell remains hidden and only clones are used."
+				}
+			},
 			"currentCostume": 0,
 			"costumes": [
 				{
