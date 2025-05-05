@@ -20,8 +20,8 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 202,
-					"y": 14
+					"x": 201,
+					"y": 13
 				},
 				"kM?MeoCn!#N$V3)689%x": {
 					"opcode": "procedures_prototype",
@@ -370,7 +370,7 @@
 					"fields": {},
 					"shadow": false,
 					"topLevel": true,
-					"x": 678,
+					"x": 677,
 					"y": -261,
 					"comment": "[}$@5pxVI_|9u]foz]f,"
 				},
@@ -732,7 +732,7 @@
 				},
 				"B-YjnMGZk;8uzqmp8QVz": {
 					"opcode": "data_changevariableby",
-					"next": "e|!bP78Uk/^%N%_5=T7M",
+					"next": "qDg3rj.!3tq,buj_e!PB",
 					"parent": "oDB2z9*UKr+b5Tw@_J.c",
 					"inputs": { "VALUE": [1, [4, "1"]] },
 					"fields": { "VARIABLE": ["cells", "+,c81s@Ygzd|[icd[-]H"] },
@@ -743,7 +743,7 @@
 				"qDg3rj.!3tq,buj_e!PB": {
 					"opcode": "looks_setsizeto",
 					"next": null,
-					"parent": "e|!bP78Uk/^%N%_5=T7M",
+					"parent": "B-YjnMGZk;8uzqmp8QVz",
 					"inputs": {
 						"SIZE": [
 							3,
@@ -816,15 +816,6 @@
 					"shadow": false,
 					"topLevel": false,
 					"comment": "{b8wCv4Xc:r@r8XZ=}W:"
-				},
-				"e|!bP78Uk/^%N%_5=T7M": {
-					"opcode": "control_forever",
-					"next": null,
-					"parent": "B-YjnMGZk;8uzqmp8QVz",
-					"inputs": { "SUBSTACK": [2, "qDg3rj.!3tq,buj_e!PB"] },
-					"fields": {},
-					"shadow": false,
-					"topLevel": false
 				}
 			},
 			"comments": {
